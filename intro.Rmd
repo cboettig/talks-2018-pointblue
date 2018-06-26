@@ -1,0 +1,350 @@
+---
+title: "Managing Conservation Data For the Long Run"
+author: "Carl Boettiger"
+
+output:
+  xaringan::moon_reader:
+#    chakra: libs/remark-latest.min.js
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+---
+class: center
+
+# Me 
+
+--
+
+## Assistant prof of Ecoinformatics in ESPM
+
+--
+
+## Theoretical Ecologist
+
+--
+
+## Interested in:
+
+- Tipping points, global change ecology
+
+--
+
+- heterogeneous/messy data
+- theory/mathematical methods
+- software/computational methods
+
+---
+class: middle, center
+
+## Data Science
+
+
+![](img/drewconway.png)
+
+
+---
+class: middle, center
+
+# rOpenSci
+
+<img src="img/c2.jpg" width="700">
+
+
+---
+class: middle
+
+# Long term time series
+
+## Statistical issues
+
+## Data management
+
+---
+class: center
+
+# Changing frequency
+
+--
+
+consequences of going from annual sampling to every-other-year?
+
+---
+class: center
+
+# Gaps
+
+--
+
+what if we had no data collection for four years?
+
+---
+class: center
+
+# Changing sampling effort
+
+--
+
+fewer surveyors or fewer sites?
+
+---
+class: center
+
+# Changing methodology
+
+--
+
+differing protocol, different instrumentation?
+
+
+---
+class: center
+
+# Long term archiving
+
+
+<img src="img/digital_resource_lifespan.png" width="700">
+
+
+
+---
+class: middle, center
+
+# Data variety
+
+
+---
+background-image: url(img/factory-farm.jpg)
+background-size: 100%
+background-position: center
+class: center, top, inverse
+
+# Factory Farm Data...
+
+
+<small>credit: Arthus-Bertrand</small>
+
+---
+background-image: url(img/organic-farm.png)
+background-size: 100%
+background-position: center
+class: center, middle, inverse
+
+# ... Organic, hand-crafted variety
+
+<small>credit: Arthus-Bertrand</small>
+
+---
+class: middle, center
+
+# Data Standards
+
+![](img/standards.png)
+
+---
+
+
+# Why Data Standards?
+
+--
+
+- Discoverability
+
+--
+
+- Data Integration
+
+--
+
+- Data Interpretation
+
+--
+
+- Credit & Attribution
+
+--
+
+- Reproducibility
+
+---
+class: center
+
+# Data Standards: Point Blue
+
+[BMDE standard](https://www.birdscanada.org/resources/default/bmde2.00.pdf)
+
+- CDAC -> AKN -> GBIF
+
+
+---
+
+# Data Standards
+
+example: a _Darwin Core_ Occurrance record
+
+- Interoperable, machine-readable data descriptions
+- Validation, automation, quality control(?)
+
+
+---
+class: center, inverse
+
+# Vertically integrated data repositories
+
+<img src="img/tetris.png">
+
+
+---
+background-image: url(img/gbif.png)
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+# GBIF
+
+
+
+
+---
+class: center, inverse
+
+# Limitations to vertical integration
+
+![](img/tetris-lose.png)
+
+
+---
+class: middle, center
+
+# Metadata-driven 
+
+![](img/eml.png)
+
+
+<small>Jones+ (2006) doi:[10.1146/annurev.ecolsys.37.091305.110031](http://doi.org/10.1146/annurev.ecolsys.37.091305.110031)</small>
+
+
+---
+
+# Metadata driven repositories
+
+- Long Term Ecological Research (LTER) sites
+- DataONE Network
+
+
+<img src="img/dataone.png" width="650">
+
+
+---
+background-image: url(img/google-dataset.png)
+background-size: 100%
+background-position: center
+
+
+---
+background-image: url(img/google-sdtt.png)
+background-size: 100%
+background-position: center
+
+
+
+---
+class: middle, center
+
+# Unstructured data: the Data Lake
+
+<img src="img/embed-data-lake.jpg" width = "650"/>
+
+
+---
+class: middle, center
+
+
+# Semantic data
+
+![](img/semantics.png)
+
+
+---
+class: middle, center
+
+# Thank you
+
+
+
+
+
+
+
+
+
+
+---
+class: center
+
+# Global Change
+
+<img src="img/global-change.jpg" width="550">
+
+<small> Overpeck+ (2011) doi:[10.1126/science.1197869](http://doi.org/10.1126/science.1197869) </small>
+
+---
+class: center
+
+# Fishery Collapse?
+
+<img src="img/worm2006.png", width="700">
+
+<small> Worm+ (2006) doi:[10.1126/science.1132294](http://doi.org/10.1126/science.1132294)</small>
+
+---
+class: center
+
+# Tipping points?
+
+<img src="img/barnosky.png", width="600">
+
+<small> Barnoksy+ (2012) doi:[10.1038/nature11018](http://doi.org/10.1038/nature11018)</small>
+
+<!-- From linear to nonlinear thinking. Must deal with the uncertainty-->
+
+
+
+
+---
+class: center
+
+# Engineering bottlenecks
+
+<img src="img/bottleneck.jpg" width="700">
+
+<small> Baraniuk (2011) doi:[10.1126/science.1197448](http://doi.org/10.1126/science.1197448) </small>
+
+---
+class: center
+
+# Science bottlenecks
+
+<img src="img/science-bottleneck.png">
+
+<small>adapted from Reichman+ (2011) doi:[10.1126/science.1197962](http://doi.org/10.1126/science.1197962)</small>
+
+
+
+---
+class: center
+
+<img src="img/measurement-error.jpg" width="700"/>
+
+# data visualization
+
+Something is wrong with this picture...
+
+<small> Fox & Hendler (2011) doi:[10.1126/science.1197654](http://doi.org/10.1126/science.1197654) </small>
+
+
+

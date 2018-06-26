@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Managing Conservation Data For the Long Run</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Carl Boettiger" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Managing Conservation Data For the Long Run
+### Carl Boettiger
+
+---
+
+
+
+---
+class: center
+
+# Me 
+
+--
+
+## Assistant prof of Ecoinformatics in ESPM
+
+--
+
+## Theoretical Ecologist
+
+--
+
+## Interested in:
+
+- Tipping points, global change ecology
+
+--
+
+- heterogeneous/messy data
+- theory/mathematical methods
+- software/computational methods
+
+---
+class: middle, center
+
+## Data Science
+
+
+![](img/drewconway.png)
+
+
+---
+class: middle, center
+
+# rOpenSci
+
+&lt;img src="img/c2.jpg" width="700"&gt;
+
+
+---
+class: middle
+
+# Long term time series
+
+## Statistical issues
+
+## Data management
+
+---
+class: center
+
+# Changing frequency
+
+--
+
+consequences of going from annual sampling to every-other-year?
+
+---
+class: center
+
+# Gaps
+
+--
+
+what if we had no data collection for four years?
+
+---
+class: center
+
+# Changing sampling effort
+
+--
+
+fewer surveyors or fewer sites?
+
+---
+class: center
+
+# Changing methodology
+
+--
+
+differing protocol, different instrumentation?
+
+
+---
+class: center
+
+# Long term archiving
+
+
+&lt;img src="img/digital_resource_lifespan.png" width="700"&gt;
+
+
+
+---
+class: middle, center
+
+# Data variety
+
+
+---
+background-image: url(img/factory-farm.jpg)
+background-size: 100%
+background-position: center
+class: center, top, inverse
+
+# Factory Farm Data...
+
+
+&lt;small&gt;credit: Arthus-Bertrand&lt;/small&gt;
+
+---
+background-image: url(img/organic-farm.png)
+background-size: 100%
+background-position: center
+class: center, middle, inverse
+
+# ... Organic, hand-crafted variety
+
+&lt;small&gt;credit: Arthus-Bertrand&lt;/small&gt;
+
+---
+class: middle, center
+
+# Data Standards
+
+![](img/standards.png)
+
+---
+
+
+# Why Data Standards?
+
+--
+
+- Discoverability
+
+--
+
+- Data Integration
+
+--
+
+- Data Interpretation
+
+--
+
+- Credit &amp; Attribution
+
+--
+
+- Reproducibility
+
+---
+class: center
+
+# Data Standards: Point Blue
+
+[BMDE standard](https://www.birdscanada.org/resources/default/bmde2.00.pdf)
+
+- CDAC -&gt; AKN -&gt; GBIF
+
+
+---
+
+# Data Standards
+
+example: a _Darwin Core_ Occurrance record
+
+- Interoperable, machine-readable data descriptions
+- Validation, automation, quality control(?)
+
+
+---
+class: center, inverse
+
+# Vertically integrated data repositories
+
+&lt;img src="img/tetris.png"&gt;
+
+
+---
+background-image: url(img/gbif.png)
+background-size: 100%
+background-position: center
+class: middle, center, inverse
+
+# GBIF
+
+
+
+
+---
+class: center, inverse
+
+# Limitations to vertical integration
+
+![](img/tetris-lose.png)
+
+
+---
+class: middle, center
+
+# Metadata-driven 
+
+![](img/eml.png)
+
+
+&lt;small&gt;Jones+ (2006) doi:[10.1146/annurev.ecolsys.37.091305.110031](http://doi.org/10.1146/annurev.ecolsys.37.091305.110031)&lt;/small&gt;
+
+
+---
+
+# Metadata driven repositories
+
+- Long Term Ecological Research (LTER) sites
+- DataONE Network
+
+
+&lt;img src="img/dataone.png" width="650"&gt;
+
+
+---
+background-image: url(img/google-dataset.png)
+background-size: 100%
+background-position: center
+
+
+---
+background-image: url(img/google-sdtt.png)
+background-size: 100%
+background-position: center
+
+
+
+---
+class: middle, center
+
+# Unstructured data: the Data Lake
+
+&lt;img src="img/embed-data-lake.jpg" width = "650"/&gt;
+
+
+---
+class: middle, center
+
+
+# Semantic data
+
+![](img/semantics.png)
+
+
+---
+class: middle, center
+
+# Thank you
+
+
+
+
+
+
+
+
+
+
+---
+class: center
+
+# Global Change
+
+&lt;img src="img/global-change.jpg" width="550"&gt;
+
+&lt;small&gt; Overpeck+ (2011) doi:[10.1126/science.1197869](http://doi.org/10.1126/science.1197869) &lt;/small&gt;
+
+---
+class: center
+
+# Fishery Collapse?
+
+&lt;img src="img/worm2006.png", width="700"&gt;
+
+&lt;small&gt; Worm+ (2006) doi:[10.1126/science.1132294](http://doi.org/10.1126/science.1132294)&lt;/small&gt;
+
+---
+class: center
+
+# Tipping points?
+
+&lt;img src="img/barnosky.png", width="600"&gt;
+
+&lt;small&gt; Barnoksy+ (2012) doi:[10.1038/nature11018](http://doi.org/10.1038/nature11018)&lt;/small&gt;
+
+&lt;!-- From linear to nonlinear thinking. Must deal with the uncertainty--&gt;
+
+
+
+
+---
+class: center
+
+# Engineering bottlenecks
+
+&lt;img src="img/bottleneck.jpg" width="700"&gt;
+
+&lt;small&gt; Baraniuk (2011) doi:[10.1126/science.1197448](http://doi.org/10.1126/science.1197448) &lt;/small&gt;
+
+---
+class: center
+
+# Science bottlenecks
+
+&lt;img src="img/science-bottleneck.png"&gt;
+
+&lt;small&gt;adapted from Reichman+ (2011) doi:[10.1126/science.1197962](http://doi.org/10.1126/science.1197962)&lt;/small&gt;
+
+
+
+---
+class: center
+
+&lt;img src="img/measurement-error.jpg" width="700"/&gt;
+
+# data visualization
+
+Something is wrong with this picture...
+
+&lt;small&gt; Fox &amp; Hendler (2011) doi:[10.1126/science.1197654](http://doi.org/10.1126/science.1197654) &lt;/small&gt;
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
